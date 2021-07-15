@@ -33,8 +33,7 @@ CREATE TABLE `clientes` (
 /*Data for the table `clientes` */
 
 insert  into `clientes`(`id`,`nome`,`email`,`cpf`,`created_at`,`updated_at`) values 
-(2,'teste1234','123@hotmail.com',172834717,'2021-07-14 13:32:41','2021-07-14 22:30:48'),
-(4,'fernando','fernando_EAM@hotmail.com',918724198,'2021-07-14 18:19:26','2021-07-14 18:19:26');
+(2,'teste1234','123@hotmail.com',172834717,'2021-07-14 13:32:41','2021-07-14 22:30:48');
 
 /*Table structure for table `failed_jobs` */
 
@@ -106,7 +105,6 @@ CREATE TABLE `users` (
 /*Data for the table `users` */
 
 insert  into `users`(`id`,`name`,`email`,`email_verified_at`,`password`,`remember_token`,`created_at`,`updated_at`) values 
-(1,'guilherme','audaime@hotmail.com',NULL,'$2y$10$AZQ9gUaJiokfWwxn7H4bpu5J4PxNZF1mmoPwxbjCmiduTtTkjWbQ2',NULL,'2021-07-14 22:46:52','2021-07-14 22:46:52'),
 (2,'Guilherme','guilherme@hotmail.com',NULL,'$2y$10$PVrgThLF/vm5kjvdtWN.W.ilhSg7q4xPs0OVBwMjzhMLfPihCNDny',NULL,'2021-07-15 00:39:44','2021-07-15 00:39:44');
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
